@@ -1,0 +1,101 @@
+@media (max-device-width:640px) {
+
+  /* navbar */
+  .container .main-nav .nav-links {
+    display: none;
+  }
+
+  .container_mobile {
+    display: block;
+  }
+
+  .main-nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: none;
+    overflow: hidden;
+  }
+
+  .logo-ctn img {
+    position: fixed;
+    top: 5px;
+    left: 15px;
+    margin-left: 5px;
+    max-width: 100%;
+  }
+
+  i .mobile {
+    display: flex;
+    color: white;
+    max-width: 100%;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+  }
+
+  .hero-image {
+    max-width: 100%;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .mobile-text h1, .mobile-text span {
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .mobile-text h1 {
+    position: absolute;
+    top: 40px;
+    left: 109px;
+    font-size: 2.9em;
+    max-width: 100%;
+  }
+
+  .mobile-text span {
+    position: absolute;
+    top: 401px;
+    left: 73px;
+    font-size: 2.2em;
+    max-width: 100%;
+  }
+
+  .hero-text {
+    display: none;
+  }
+
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .single {
+    padding-bottom: 40px;
+    max-width: 100%;
+  }
+
+  .about_us {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 100%;
+  }
+
+  .container_footer {
+    margin: 0 auto;
+  }
+}
